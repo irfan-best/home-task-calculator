@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-top:-90px;
+}
+
+.input-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-center > *{
+    border-radius: 10px;
+    height: 40px;
+    margin: 36px 40px;
+    text-align: center;
+}
+
+.button-size
+{
+    width:172px;
+}
+
+.button-submit
+{
+    background-color: white;
+}
+
+.button-submit:hover{
+    background-color: #e9e4e4;
+}
