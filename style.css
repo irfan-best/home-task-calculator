@@ -39,3 +39,10 @@ form{
 .button-submit:hover{
     background-color: #e9e4e4;
 }
+
+#result-div{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -2px;
+}

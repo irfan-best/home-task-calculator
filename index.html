@@ -9,21 +9,30 @@
         <form action="" class="form-container">
 
             <div class="input-center">
-                <input type="number" name="number1" placeholder="Enter a number" class="number-input button-size" required>
-                <input type="number" name="number2" placeholder="Enter a number" class="number-input button-size" required>
+                <input id="num1" type="number" name="number1" placeholder="Enter a number" class="number-input button-size" required>
+                <input id="num2" type="number" name="number2" placeholder="Enter a number" class="number-input button-size" required>
             </div>
 
             <div class="input-center">
-                <select class="button-size" name="formula" id="formula">
+                <select class="button-size" name="formula" id="operator">
                     <option value="add">Addition</option>
                     <option value="sub">Subtraction</option>
                     <option value="mul">Multiplication</option>
                     <option value="div">Division</option>
                 </select>
 
-                <input class="button-size button-submit" type="submit" value="Find Result">
+                <input id="submit-button" class="button-size button-submit" type="submit" value="Find Result">
            </div>
+
+           <div class="input-center">
+                <div id="result-div"></div>
+            </div>
+                
         </form>
+
+        
+
+        <script src="script.js"></script>
 
     </body>
 
